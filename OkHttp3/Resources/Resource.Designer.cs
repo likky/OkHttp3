@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("OkHttp3.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("OkHttp.Resource", IsApplication=true)]
 
-namespace OkHttp3
+namespace OkHttp
 {
 	
 	
@@ -37,6 +37,28 @@ namespace OkHttp3
 			}
 			
 			private Attribute()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f040001
+			public const int button1 = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int scrollView1 = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int textView1 = 2130968578;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
